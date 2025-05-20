@@ -1,0 +1,21 @@
+[project]
+name = "scorta"
+version = "0.1.0"
+description = "Protect your sensitive information."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/jpvaldes/scorta"
+Issues = "https://github.com/jpvaldes/scorta/issues"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+    "ruff>=0.11.10",
+]
+
+[tool.ruff]
+line-length = 100
